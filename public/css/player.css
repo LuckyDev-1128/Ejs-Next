@@ -1,0 +1,262 @@
+#video_container1 .jw-skip {
+    bottom: 50% !important;
+    font-size: 20px !important
+}
+
+#video_container1 .jw-skip .jw-text {
+    color: #fff
+}
+
+#video_container1 .jw-controls-backdrop {
+    background: 0 0
+}
+
+#video_container1 .jw-controlbar {
+    display: none
+}
+
+#video_container1 {
+    width: 100% !important;
+    height: 565px !important
+}
+
+
+.moviePlayer .ad-player-link {
+    position: absolute;
+    right: 12px;
+    top: 24%;
+    margin: -54px 0
+}
+
+
+
+.moviePlayer .btn-skip {
+    cursor: pointer !important;
+    display: block;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #fff;
+    background-color: #222;
+    border-right: none;
+    border-color: #151515;
+    padding: 20px 21px 18px;
+    line-height: 20px;
+    font-size: 20px;
+    opacity: .9
+}
+
+
+.moviePlayer .btn-ad-link {
+    width: 100%;
+    height: 100%;
+    float: none;
+    display: block;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #fff;
+    background: linear-gradient(to right,#0d6efd,#0d6efd) !important;
+    font-size: 16px;
+    opacity: .8
+}
+
+
+
+
+
+.moviePlayer .btn-ad-link {
+    text-decoration: none;
+    padding: 10% 0;
+    border-radius: 10px
+}
+
+.ad-player-skip {
+    width: 100%;
+    height: 100%
+}
+
+.btn-skip {
+    background-color: #ffc917;
+    position: absolute;
+    right: 0;
+    top: 56%
+}
+
+.ad-player-link {
+    width: 114px;
+    height: 40px
+}
+
+.ad-player-link a {
+    padding: 0 !important
+}
+
+.btn-ad-link {
+    display: flex !important;
+    justify-content: center;
+    align-items: center
+}
+
+.ad-overlay-click {
+    width: 100%;
+    height: 100%;
+    cursor: pointer
+}
+
+.player-embed {
+    height: 450px !important
+}
+
+button.mov_source:focus,
+.btn-report:focus {
+    outline: unset
+}
+
+#moviePlayer #video_container1 {
+    position: absolute;
+    width: 100% !important;
+    height: 450px !important
+}
+
+.moviePlayer .btn-ad-link {
+    border-radius: 5px
+}
+
+@media screen and (max-width:640px) {
+    .moviePlayer .btn-ad-link {
+        width: 100%;
+        height: 100%;
+        float: none;
+        display: block;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-right: none;
+        font-size: 16px;
+        opacity: .9
+    }
+
+    .moviePlayer .btn-skip {
+        cursor: pointer !important;
+        display: block;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        color: #fff;
+        background-color: #222;
+        border-right: none;
+        border-color: #151515;
+        padding: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        opacity: .9
+    }
+
+    .moviePlayer .ad-player-link {
+        position: absolute;
+        left: 0;
+        top: 64%;
+        margin: -60px 0
+    }
+
+    .ad-player-link {
+        width: 142px;
+        height: 44px
+    }
+}
+.jw-nextup-tooltip.jw-reset {
+    display: none !important;
+  }
+
+
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    background-color: #ffffff00;
+  }
+  #spinnerOverlay {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: #ffffff00;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .centered-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff00;
+  }
+  .btn-outline-primary {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: linear-gradient(to right, #ffb10a, #ffc917);
+    color: #212121;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+  }
+  #video_container1 .jw-skip {
+    bottom: 50% !important;
+    font-size: 20px !important;
+  }
+  #video_container1 .jw-skip .jw-text {
+    color: #fff;
+  }
+  #video_container1 {
+    width: 100% !important;
+    height: 100vh !important;
+  }
+  .moviePlayer .btn-skip {
+    cursor: pointer !important;
+    display: block;
+    color: #fff;
+    background-color: #222;
+    padding: 20px 21px 18px;
+    font-size: 20px;
+    opacity: .9;
+  }
+  .moviePlayer .btn-ad-link {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(to right, #0d6efd, #0d6efd) !important;
+    font-size: 16px;
+    opacity: .8;
+    text-decoration: none;
+    padding: 10% 0;
+    border-radius: 10px;
+  }
+  .ad-overlay-click {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 640px) {
+    .moviePlayer .btn-skip {
+      padding: 10px;
+      font-size: 14px;
+    }
+    .moviePlayer .btn-ad-link {
+      font-size: 16px;
+      opacity: .9;
+    }
+  }
+  .jw-nextup-tooltip.jw-reset {
+    display: none !important;
+  }
+  #playerm3u8 {
+    width: 100% !important;
+    height: 100vh !important;
+  }
